@@ -1,0 +1,40 @@
+.truncate {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.error-message {
+  color: var(--error);
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 2px;
+}
+.link {
+  color: var(--primary-brand);
+  font-weight: 500;
+  text-decoration: initial;
+  cursor: pointer;
+  &:hover {
+    color: #204ab6;
+  }
+  &.font-bold {
+    font-weight: 700;
+  }
+  &--sm {
+    font-size: 14px !important;
+  }
+  &--xs {
+    font-size: 12px !important;
+  }
+}
+
+input[type="number"] {
+  appearance: textfield;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
