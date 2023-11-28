@@ -72,4 +72,15 @@
       color: rgba(145, 150, 154, 0.6);
     }
   }
+  &--select {
+    background: #fff url("assets/icons/arrow-down-color.svg") no-repeat right
+      12px center;
+    padding-right: 50px;
+    cursor: pointer;
+  }
+  &--arrow-group {
+    background: #fff url("assets/icons/arrow-group.svg") no-repeat right 12px
+      center;
+    padding-right: 40px;
+  }
 }

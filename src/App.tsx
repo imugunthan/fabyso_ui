@@ -4,6 +4,8 @@ import OtpVerify from "./components/OtpVerify.js";
 import ResetPassword from "./components/ResetPassword.js";
 import Signup from "./components/Signup.js";
 import VerifyEmail from "./components/VerifyEmail.js";
+import Onboarding from "./pages/Onboarding.js";
+import OnboardingContactInfo from "./pages/OnboardingContactInfo.js";
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
       {/* <ForgotPassword /> */}
       {/* <VerifyEmail /> */}
       {/* <ResetPassword /> */}
-      <Signup />
+      {/* <Signup /> */}
       {/* <OtpVerify /> */}
+      {/* <Onboarding /> */}
+      <OnboardingContactInfo />
     </>
   );
 }

@@ -1,0 +1,37 @@
+.select-dropdown-menu {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: calc(100% + 5px);
+  padding: 8px 0px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100px);
+  transition: opacity 300ms, transform 300ms;
+  &__list {
+    color: #0a0a0a;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    transition: all 300ms;
+    cursor: pointer;
+    &:hover {
+      background-color: #f4f4f4;
+    }
+  }
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+.custom-select {
+  &-wrapper {
+    position: relative;
+    cursor: pointer;
+  }
+}
