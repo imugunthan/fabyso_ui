@@ -11,6 +11,7 @@
   visibility: hidden;
   transform: translateY(100px);
   transition: opacity 300ms, transform 300ms;
+  z-index: 10;
   &__list {
     color: #0a0a0a;
     font-size: 14px;

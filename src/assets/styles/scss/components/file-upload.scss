@@ -1,0 +1,39 @@
+.file-upload {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 40px;
+    background-color: #edf7ff;
+    border: 1px dashed var(--primary-brand);
+    border-radius: 4px;
+  }
+  &__input {
+    display: none;
+  }
+}
+.file-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 8px;
+  background: #edf7ff;
+  border-radius: 4px;
+  &__icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > img {
+      min-width: 24px;
+      height: auto;
+    }
+  }
+  &__title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 8px;
+  }
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}

@@ -5,7 +5,9 @@ import ResetPassword from "./components/ResetPassword.js";
 import Signup from "./components/Signup.js";
 import VerifyEmail from "./components/VerifyEmail.js";
 import Onboarding from "./pages/Onboarding.js";
+import OnboardingConfirmDetails from "./pages/OnboardingConfirmDetails.js";
 import OnboardingContactInfo from "./pages/OnboardingContactInfo.js";
+import OnboardingUploadDocs from "./pages/OnboardingUploadDocs.js";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/* <Signup /> */}
       {/* <OtpVerify /> */}
       {/* <Onboarding /> */}
-      <OnboardingContactInfo />
+      {/* <OnboardingContactInfo /> */}
+      <OnboardingUploadDocs />
+      {/* <OnboardingConfirmDetails /> */}
     </>
   );
 }
