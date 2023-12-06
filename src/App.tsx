@@ -6,6 +6,7 @@ import Signup from "./components/Signup.js";
 import VerifyEmail from "./components/VerifyEmail.js";
 import DashboardAsideMenu from "./components/common/DashboardAsideMenu.js";
 import DashboardProfileSetup from "./pages/DashboardProfileSetup.js";
+import DashboardUsers from "./pages/DashboardUsers.js";
 import Onboarding from "./pages/Onboarding.js";
 import OnboardingConfirmDetails from "./pages/OnboardingConfirmDetails.js";
 import OnboardingContactInfo from "./pages/OnboardingContactInfo.js";
@@ -20,11 +21,12 @@ function App() {
       {/* <ResetPassword /> */}
       {/* <Signup /> */}
       {/* <OtpVerify /> */}
-      <Onboarding />
+      {/* <Onboarding /> */}
       {/* <OnboardingContactInfo /> */}
       {/* <OnboardingUploadDocs /> */}
       {/* <OnboardingConfirmDetails /> */}
       {/* <DashboardProfileSetup /> */}
+      <DashboardUsers />
     </>
   );
 }
