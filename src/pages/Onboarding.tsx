@@ -165,7 +165,7 @@ const Onboarding = () => {
                   placeholder="Enter business capacity"
                 />
                 <span className="text-13 font-medium mt-1">
-                  Per month production count
+                  Year/Month production count
                 </span>
               </div>
               <div className="col-6 px-2">
@@ -177,6 +177,39 @@ const Onboarding = () => {
                   className="input-field input-field--h40 w-full"
                   placeholder="Enter your registration  number"
                 />
+              </div>
+            </div>
+            <div className="flex items-center">
+              <span className="text-13 font-medium">Market focused ?</span>
+              <div className="flex items-center ml-4">
+                <div className="custom-checkbox sm">
+                  <input
+                    type="checkbox"
+                    id="domestic"
+                    className="custom-checkbox__input"
+                  />
+                  <label htmlFor="domestic" className="custom-checkbox__label">
+                    <code className="custom-checkbox__label__box"></code>
+                    <span className="text-secondary text-sm font-medium ml-2">
+                      Domestic
+                    </span>
+                  </label>
+                </div>
+              </div>
+              <div className="flex items-center ml-4">
+                <div className="custom-checkbox sm">
+                  <input
+                    type="checkbox"
+                    id="exports"
+                    className="custom-checkbox__input"
+                  />
+                  <label htmlFor="exports" className="custom-checkbox__label">
+                    <code className="custom-checkbox__label__box"></code>
+                    <span className="text-secondary text-sm font-medium ml-2">
+                      Exports
+                    </span>
+                  </label>
+                </div>
               </div>
             </div>
           </div>

@@ -20,11 +20,11 @@ function App() {
       {/* <ResetPassword /> */}
       {/* <Signup /> */}
       {/* <OtpVerify /> */}
-      {/* <Onboarding /> */}
+      <Onboarding />
       {/* <OnboardingContactInfo /> */}
       {/* <OnboardingUploadDocs /> */}
       {/* <OnboardingConfirmDetails /> */}
-      <DashboardProfileSetup />
+      {/* <DashboardProfileSetup /> */}
     </>
   );
 }

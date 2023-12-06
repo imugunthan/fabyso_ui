@@ -16,7 +16,7 @@ const OnboardingHeader = () => {
         style={{ maxWidth: "20%" }}
       >
         <figure
-          className="avatar-container avatar--cover flex-shrink-0"
+          className="avatar-container avatar-container--cover flex-shrink-0"
           style={{ width: 32, height: 32 }}
         >
           <img
