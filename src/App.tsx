@@ -4,6 +4,8 @@ import OtpVerify from "./components/OtpVerify.js";
 import ResetPassword from "./components/ResetPassword.js";
 import Signup from "./components/Signup.js";
 import VerifyEmail from "./components/VerifyEmail.js";
+import DashboardAsideMenu from "./components/common/DashboardAsideMenu.js";
+import DashboardProfileSetup from "./pages/DashboardProfileSetup.js";
 import Onboarding from "./pages/Onboarding.js";
 import OnboardingConfirmDetails from "./pages/OnboardingConfirmDetails.js";
 import OnboardingContactInfo from "./pages/OnboardingContactInfo.js";
@@ -20,8 +22,9 @@ function App() {
       {/* <OtpVerify /> */}
       {/* <Onboarding /> */}
       {/* <OnboardingContactInfo /> */}
-      <OnboardingUploadDocs />
+      {/* <OnboardingUploadDocs /> */}
       {/* <OnboardingConfirmDetails /> */}
+      <DashboardProfileSetup />
     </>
   );
 }

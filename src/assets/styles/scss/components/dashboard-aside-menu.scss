@@ -1,0 +1,91 @@
+.dashboard {
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 240px;
+    height: 100%;
+    background: linear-gradient(180deg, #304058 0%, #0a1527 100%);
+    &__header {
+      height: 57px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 22px;
+      border-bottom: 1px solid rgba(170, 173, 179, 0.18);
+    }
+    &__body {
+      padding: 18px 12px;
+    }
+    &__nav-list {
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      border-radius: 6px;
+      transition: all 300ms;
+      cursor: pointer;
+      &:hover,
+      &.active {
+        background-color: #357be7;
+      }
+      &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+      &__title {
+        color: #fff;
+        font-weight: 500;
+        margin-left: 10px;
+      }
+    }
+    &__profile {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding: 10px 12px;
+      border-top: 1px solid rgba(170, 173, 179, 0.18);
+      cursor: pointer;
+      &__dropdown-menu {
+        width: 80%;
+        position: absolute;
+        bottom: calc(100% + 18px);
+        right: 10px;
+        background: #fff;
+        border-radius: 8px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-100px);
+        transition: all 300ms;
+        z-index: 10;
+        &-wrapper {
+          position: relative;
+        }
+        &__list {
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+          font-weight: 500;
+          transition: all 300ms;
+          &:hover {
+            background-color: var(--screen-bg);
+          }
+          &:not(:last-child) {
+            margin-bottom: 4px;
+          }
+        }
+        &.show {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(0);
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          border: 16px solid transparent;
+          border-top: 24px solid #fff;
+          right: 20px;
+          bottom: -32px;
+        }
+      }
+    }
+  }
+}
