@@ -39,6 +39,14 @@
       pointer-events: none;
     }
   }
+  &--grey {
+    color: var(--secondary-text);
+    border: 1px solid var(--border);
+    &:hover {
+      color: var(--primary-text);
+      border: 1px solid var(--primary-brand);
+    }
+  }
   &--text {
     border: 1px solid transparent;
     color: var(--primary-brand);

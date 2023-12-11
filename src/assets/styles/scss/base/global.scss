@@ -43,7 +43,14 @@ input[type="number"] {
   border: 1px solid #d3deed;
   border-radius: 12px;
 }
-
+.card-box2 {
+  background: #ffffff;
+  border: 1px solid #d2dce9;
+  border-radius: 12px;
+  &.md {
+    border-radius: 8px;
+  }
+}
 .badge {
   display: inline-flex;
   align-items: center;
@@ -119,6 +126,9 @@ input[type="file"] {
     background: #ffffff;
     border: 1px solid var(--border);
     border-radius: 19px;
+    &.sm {
+      padding: 6px 16px;
+    }
   }
 }
 
@@ -153,5 +163,37 @@ input[type="file"] {
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+.label-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-brand);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  background: rgba(206, 213, 222, 0.38);
+  border: 1px solid #ffffff;
+  border-radius: 19px;
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+.split-progress-bar {
+  width: calc(100% / 5);
+  height: 8px;
+  background-color: var(--border);
+  border-radius: 8px;
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+  &.completed {
+    background-color: var(--tertiary-brand);
   }
 }
