@@ -110,5 +110,13 @@
         }
       }
     }
+
+    &.success_stepper {
+      .stepper__list {
+        &__progress {
+          background-color: green;
+        }
+      }
+    }
   }
 }
