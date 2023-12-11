@@ -100,3 +100,24 @@ input[type="number"] {
     }
   }
 }
+
+input[type="file"] {
+  display: none;
+}
+
+.pills {
+  &-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--secondary-text);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin: 4px 8px 4px 0;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 19px;
+  }
+}

@@ -71,6 +71,7 @@
   &__body {
     padding: 24px;
     background-color: #fcfcfe;
+    overflow-y: auto;
   }
   &__footer {
     display: flex;
@@ -116,6 +117,222 @@
     opacity: 1;
     visibility: visible;
     .modal__container {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  &--add-business {
+    .modal {
+      &__container {
+        width: 800px;
+      }
+    }
+  }
+  &--add-contact {
+    .modal {
+      &__container {
+        width: 976px;
+      }
+    }
+  }
+  &--edit-contact {
+    .modal {
+      &__container {
+        width: 976px;
+      }
+    }
+  }
+  &--edit-business {
+    .modal {
+      &__container {
+        width: 976px;
+      }
+    }
+  }
+  .file-upload {
+    &-container {
+      width: 156px;
+      height: 156px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      background: #edf7ff;
+      border: 1px dashed var(--primary-brand);
+      border-radius: 12px;
+      cursor: pointer;
+    }
+  }
+  .file-upload-add-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+    height: 124px;
+    border: 1px dashed var(--primary-brand);
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  &--add-product {
+    .modal {
+      &__container {
+        width: 976px;
+      }
+    }
+    .thumbnail-list {
+      width: 124px;
+      height: 124px;
+      border-radius: 12px;
+      > img {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        object-fit: cover;
+      }
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+    }
+  }
+  &--view-product {
+    .modal {
+      &__container {
+        width: 976px;
+      }
+    }
+    .slider-pic-container {
+      position: relative;
+      width: 100%;
+      height: 292px;
+      border-radius: 12px;
+      > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+      }
+      .slider-arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 24px;
+        height: 24px;
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: 100%;
+        cursor: pointer;
+        &--next {
+          right: 10px;
+        }
+        &--previous {
+          left: 10px;
+        }
+      }
+    }
+  }
+  &--add-corporate-video {
+    .modal {
+      &__container {
+        width: 976px;
+      }
+    }
+    .video-container {
+      width: 124px;
+      height: 124px;
+      background-color: var(--screen-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+  }
+  .file-upload-thumbnail {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    &__btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      color: var(--primary-brand);
+      font-size: 14px;
+      font-weight: 500;
+      padding: 10px 24px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    &__content {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 10;
+    }
+    &__pic-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 4px;
+      object-fit: cover;
+      > img {
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        object-fit: cover;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 1;
+      }
+    }
+  }
+  .file-upload-edit {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 156px;
+    height: 156px;
+    border-radius: 20px;
+    cursor: pointer;
+    > img {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+      transition: all 300ms;
+      z-index: 8;
+      opacity: 0;
+      visibility: hidden;
+    }
+    &:hover::after {
       opacity: 1;
       visibility: visible;
     }

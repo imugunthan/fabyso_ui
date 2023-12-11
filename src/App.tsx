@@ -25,8 +25,8 @@ function App() {
       {/* <OnboardingContactInfo /> */}
       {/* <OnboardingUploadDocs /> */}
       {/* <OnboardingConfirmDetails /> */}
-      {/* <DashboardProfileSetup /> */}
-      <DashboardUsers />
+      <DashboardProfileSetup />
+      {/* <DashboardUsers /> */}
     </>
   );
 }

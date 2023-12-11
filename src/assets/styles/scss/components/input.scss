@@ -1,4 +1,5 @@
 .input-field {
+  width: 100%;
   color: var(--tertiary-text);
   font-size: 14px;
   font-weight: 400;
@@ -38,8 +39,10 @@
     &:not(:last-child) {
       margin-bottom: 24px;
     }
-    &.mb-4 {
-      margin-bottom: 16px;
+    &.sm {
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
     }
   }
   &-label {
