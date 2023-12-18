@@ -5,6 +5,9 @@ import ResetPassword from "./components/ResetPassword.js";
 import Signup from "./components/Signup.js";
 import VerifyEmail from "./components/VerifyEmail.js";
 import DashboardAsideMenu from "./components/common/DashboardAsideMenu.js";
+import DashboardOrgProfile from "./pages/DashboardOrgProfile.js";
+import DashboardOrgProfileMedia from "./pages/DashboardOrgProfileMedia.js";
+import DashboardOrgProfileProducts from "./pages/DashboardOrgProfileProducts.js";
 import DashboardProfileSetup from "./pages/DashboardProfileSetup.js";
 import DashboardUsers from "./pages/DashboardUsers.js";
 import Onboarding from "./pages/Onboarding.js";
@@ -25,8 +28,11 @@ function App() {
       {/* <OnboardingContactInfo /> */}
       {/* <OnboardingUploadDocs /> */}
       {/* <OnboardingConfirmDetails /> */}
-      <DashboardProfileSetup />
+      {/* <DashboardProfileSetup /> */}
       {/* <DashboardUsers /> */}
+      <DashboardOrgProfile />
+      {/* <DashboardOrgProfileProducts /> */}
+      {/* <DashboardOrgProfileMedia /> */}
     </>
   );
 }

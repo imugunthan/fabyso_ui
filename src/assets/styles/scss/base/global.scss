@@ -20,6 +20,9 @@
   &.font-bold {
     font-weight: 700;
   }
+  &.semibold {
+    font-weight: 600 !important;
+  }
   &--sm {
     font-size: 14px !important;
   }
@@ -39,12 +42,15 @@ input[type="number"] {
   }
 }
 .card-box {
-  background: #ffffff;
+  background-color: #ffffff;
   border: 1px solid #d3deed;
   border-radius: 12px;
+  &--border-grey {
+    border: 1px solid #dbdbdb;
+  }
 }
 .card-box2 {
-  background: #ffffff;
+  background-color: #ffffff;
   border: 1px solid #d2dce9;
   border-radius: 12px;
   &.md {
@@ -182,6 +188,9 @@ input[type="file"] {
   border-radius: 19px;
   &:not(:last-child) {
     margin-right: 8px;
+  }
+  &.mb-0 {
+    margin-bottom: 0 !important;
   }
 }
 

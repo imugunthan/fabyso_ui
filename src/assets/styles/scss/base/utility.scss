@@ -944,9 +944,13 @@
   margin-left: -20px;
   margin-right: -20px;
 }
-.-mx-6 {
-  margin-left: -24px;
-  margin-right: -24px;
+.-mx-7 {
+  margin-left: -28px;
+  margin-right: -28px;
+}
+.-mx-8 {
+  margin-left: -32px;
+  margin-right: -32px;
 }
 .pr-1 {
   padding-right: 4px;
@@ -1083,6 +1087,9 @@
 .text-tertiary {
   color: var(--tertiary-text);
 }
+.text-dark {
+  color: var(--text-dark);
+}
 .text-placeholder {
   color: var(--placeholder);
 }
@@ -1091,6 +1098,9 @@
 }
 .text-primary-brand {
   color: var(--primary-brand);
+}
+.text-secondary-brand {
+  color: var(--secondary-brand);
 }
 .bg-primary-brand {
   background-color: var(--primary-brand);
