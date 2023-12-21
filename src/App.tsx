@@ -1,3 +1,4 @@
+import AddTestimonial from "./components/AddTestimonial.js";
 import ForgotPassword from "./components/ForgotPassword.js";
 import Login from "./components/Login.js";
 import OtpVerify from "./components/OtpVerify.js";
@@ -30,9 +31,10 @@ function App() {
       {/* <OnboardingConfirmDetails /> */}
       {/* <DashboardProfileSetup /> */}
       {/* <DashboardUsers /> */}
-      <DashboardOrgProfile />
+      {/* <DashboardOrgProfile /> */}
       {/* <DashboardOrgProfileProducts /> */}
       {/* <DashboardOrgProfileMedia /> */}
+      <AddTestimonial />
     </>
   );
 }
