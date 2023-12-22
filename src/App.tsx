@@ -6,6 +6,7 @@ import ResetPassword from "./components/ResetPassword.js";
 import Signup from "./components/Signup.js";
 import VerifyEmail from "./components/VerifyEmail.js";
 import DashboardAsideMenu from "./components/common/DashboardAsideMenu.js";
+import DashboardMyAccount from "./pages/DashboardMyAccount.js";
 import DashboardOrgProfile from "./pages/DashboardOrgProfile.js";
 import DashboardOrgProfileMedia from "./pages/DashboardOrgProfileMedia.js";
 import DashboardOrgProfileProducts from "./pages/DashboardOrgProfileProducts.js";
@@ -34,7 +35,8 @@ function App() {
       {/* <DashboardOrgProfile /> */}
       {/* <DashboardOrgProfileProducts /> */}
       {/* <DashboardOrgProfileMedia /> */}
-      <AddTestimonial />
+      {/* <AddTestimonial /> */}
+      <DashboardMyAccount />
     </>
   );
 }
