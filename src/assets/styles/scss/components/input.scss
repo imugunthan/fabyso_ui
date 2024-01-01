@@ -97,3 +97,9 @@
     height: initial;
   }
 }
+
+select {
+  -webkit-appearance: none;
+    appearance: none;
+  background: #fff url("assets/icons/arrow-down-color.svg") no-repeat right 12px center;
+}

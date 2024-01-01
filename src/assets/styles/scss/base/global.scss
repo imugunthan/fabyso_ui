@@ -202,8 +202,11 @@ input[type="file"] {
   &:not(:last-child) {
     margin-right: 5px;
   }
-  &.completed {
+  &.in-progress{
     background-color: var(--tertiary-brand);
+  }
+  &.completed {
+    background-color: var(--success);
   }
 }
 
@@ -211,4 +214,36 @@ input[type="file"] {
   opacity: 0.5;
   cursor: none;
   pointer-events: none;
+}
+
+.ellipsis{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.ellipsis-1{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.css-1p3m7a8-multiValue{
+  display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--secondary-text);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px;
+    margin: 4px 8px 4px 0;
+    background-color: #ffffff !important;
+    border: 1px solid var(--border);
+    border-radius: 19px !important;
+}
+.css-12a83d4-MultiValueRemove{
+  cursor: pointer;
 }
