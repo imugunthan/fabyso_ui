@@ -16,6 +16,9 @@ import Onboarding from "./pages/Onboarding.js";
 import OnboardingConfirmDetails from "./pages/OnboardingConfirmDetails.js";
 import OnboardingContactInfo from "./pages/OnboardingContactInfo.js";
 import OnboardingUploadDocs from "./pages/OnboardingUploadDocs.js";
+import BuyersOnboarding from "./pages/buyers/BuyersOnboardingBusinessDetails.js";
+import BuyersOnboardingConfirmDetails from "./pages/buyers/BuyersOnboardingConfirmDetails.js";
+import BuyersOnboardingContactInfo from "./pages/buyers/BuyersOnboardingContactInfo.js";
 
 function App() {
   return (
@@ -36,7 +39,10 @@ function App() {
       {/* <DashboardOrgProfileProducts /> */}
       {/* <DashboardOrgProfileMedia /> */}
       {/* <AddTestimonial /> */}
-      <DashboardMyAccount />
+      {/* <DashboardMyAccount /> */}
+      <BuyersOnboarding />
+      {/* <BuyersOnboardingContactInfo /> */}
+      {/* <BuyersOnboardingConfirmDetails /> */}
     </>
   );
 }

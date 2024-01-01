@@ -94,7 +94,7 @@ const DashboardMyAccount = () => {
           </section>
         </main>
       </section>
-      <ModalEditProfileInfo />
+      {/* <ModalEditProfileInfo /> */}
       {/* <ModalChangePassword /> */}
     </>
   );
