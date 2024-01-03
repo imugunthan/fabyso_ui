@@ -16,9 +16,11 @@ import Onboarding from "./pages/Onboarding.js";
 import OnboardingConfirmDetails from "./pages/OnboardingConfirmDetails.js";
 import OnboardingContactInfo from "./pages/OnboardingContactInfo.js";
 import OnboardingUploadDocs from "./pages/OnboardingUploadDocs.js";
+import BuyersDashboard from "./pages/buyers/BuyersDashboard.js";
 import BuyersOnboarding from "./pages/buyers/BuyersOnboardingBusinessDetails.js";
 import BuyersOnboardingConfirmDetails from "./pages/buyers/BuyersOnboardingConfirmDetails.js";
 import BuyersOnboardingContactInfo from "./pages/buyers/BuyersOnboardingContactInfo.js";
+import BuyersSearchResults from "./pages/buyers/BuyersSearchResults.js";
 
 function App() {
   return (
@@ -40,9 +42,11 @@ function App() {
       {/* <DashboardOrgProfileMedia /> */}
       {/* <AddTestimonial /> */}
       {/* <DashboardMyAccount /> */}
-      <BuyersOnboarding />
+      {/* <BuyersOnboarding /> */}
       {/* <BuyersOnboardingContactInfo /> */}
       {/* <BuyersOnboardingConfirmDetails /> */}
+      {/* <BuyersDashboard /> */}
+      <BuyersSearchResults />
     </>
   );
 }

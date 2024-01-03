@@ -57,6 +57,11 @@ input[type="number"] {
     border-radius: 8px;
   }
 }
+.card-box3 {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(82, 84, 88, 0.08);
+  border-radius: 14px;
+}
 .badge {
   display: inline-flex;
   align-items: center;
@@ -202,7 +207,7 @@ input[type="file"] {
   &:not(:last-child) {
     margin-right: 5px;
   }
-  &.in-progress{
+  &.in-progress {
     background-color: var(--tertiary-brand);
   }
   &.completed {
@@ -216,34 +221,51 @@ input[type="file"] {
   pointer-events: none;
 }
 
-.ellipsis{
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+.ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.ellipsis-1{
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+.ellipsis-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.css-1p3m7a8-multiValue{
+.css-1p3m7a8-multiValue {
   display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--secondary-text);
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 8px;
-    margin: 4px 8px 4px 0;
-    background-color: #ffffff !important;
-    border: 1px solid var(--border);
-    border-radius: 19px !important;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--secondary-text);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px;
+  margin: 4px 8px 4px 0;
+  background-color: #ffffff !important;
+  border: 1px solid var(--border);
+  border-radius: 19px !important;
 }
-.css-12a83d4-MultiValueRemove{
+.css-12a83d4-MultiValueRemove {
   cursor: pointer;
+}
+
+.graph-keys {
+  display: flex;
+  align-items: center;
+  &__circle {
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary-brand);
+    border-radius: 100%;
+  }
+  &__text {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 5px;
+  }
 }

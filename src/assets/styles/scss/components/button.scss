@@ -45,6 +45,11 @@
       pointer-events: none;
     }
   }
+  &--secondary {
+    color: var(--primary-brand);
+    background: rgba(45, 104, 254, 0.16);
+    border: 1px solid transparent;
+  }
   &--grey {
     color: var(--secondary-text);
     border: 1px solid var(--border);
