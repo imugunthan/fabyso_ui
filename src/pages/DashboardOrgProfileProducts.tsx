@@ -177,7 +177,18 @@ const DashboardOrgProfileProducts = () => {
                 </div>
               </div>
               <div className="col-3 px-4">
-                <div className="card-box p-5">
+                <div className="card-box p-3">
+                  <h3 className="text-sm font-medium">
+                    Verification is pending
+                  </h3>
+                  <button className="btn btn--primary btn--h40 w-full px-4 mt-4">
+                    Verify Supplier
+                  </button>
+                  <button className="btn btn--h40 w-full px-4 mt-4">
+                    Deny
+                  </button>
+                </div>
+                <div className="card-box p-5 mt-8">
                   <h2
                     className="text-32 font-bold"
                     style={{ color: "#1D3440" }}
