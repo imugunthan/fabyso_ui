@@ -1091,6 +1091,9 @@
 .rounded-12 {
   border-radius: 12px;
 }
+.rounded-14 {
+  border-radius: 14px;
+}
 .rounded-lg {
   border-radius: 16px;
 }
@@ -1247,4 +1250,17 @@
 }
 .border2-b-1 {
   border-bottom: 1px solid var(--border2);
+}
+
+.mb-not-last-child:last-child {
+  margin-bottom: 0;
+}
+.mt-not-last-child:last-child {
+  margin-top: 0;
+}
+.pb-not-last-child:last-child {
+  padding-bottom: 0;
+}
+.pt-not-last-child:last-child {
+  padding-top: 0;
 }

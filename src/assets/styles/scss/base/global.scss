@@ -269,3 +269,19 @@ input[type="file"] {
     margin-left: 5px;
   }
 }
+.dots-indicator {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  background-color: var(--primary-brand);
+  border-radius: 100%;
+  &.sm {
+    width: 12px;
+    height: 12px;
+  }
+  &.xs {
+    width: 10px;
+    height: 10px;
+  }
+}
