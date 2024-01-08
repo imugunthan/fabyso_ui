@@ -1,5 +1,5 @@
 .org-profile {
-  &__name{
+  &__name {
     color: #141415;
     font-size: 24px;
     font-weight: 600;
@@ -14,8 +14,8 @@
       object-fit: cover;
     }
   }
-  &__image{
-    img{
+  &__image {
+    img {
       width: 130px;
       height: 130px;
       border-radius: 3px;
@@ -97,33 +97,4 @@
   background-color: var(--secondary-brand);
   border-radius: 4px;
   border: 2px solid #fff;
-}
-
-.btn-group {
-  display: flex;
-  &__item {
-    height: 36px;
-    display: flex;
-    align-items: center;
-    color: var(--tertiary-text);
-    font-size: 14px;
-    font-weight: 500;
-    padding: 8px 16px;
-    border: 1px solid #b7bdc6;
-    background-color: #fff;
-    cursor: pointer;
-    &:first-of-type {
-      border-radius: 8px 0 0 8px;
-    }
-    &:last-child {
-      border-radius: 0 8px 8px 0;
-    }
-  }
-  &__input {
-    display: none;
-    &:checked + label {
-      border: 2px solid var(--primary-brand);
-      background-color: var(--input-bg);
-    }
-  }
 }

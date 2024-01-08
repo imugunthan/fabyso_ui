@@ -7,6 +7,7 @@ import Signup from "./components/Signup.js";
 import VerifyEmail from "./components/VerifyEmail.js";
 import DashboardAsideMenu from "./components/common/DashboardAsideMenu.js";
 import AdminDashboard from "./pages/Admin/AdminDashboard.js";
+import Suppliers from "./pages/Admin/Suppliers.js";
 import DashboardMyAccount from "./pages/DashboardMyAccount.js";
 import DashboardOrgProfile from "./pages/DashboardOrgProfile.js";
 import DashboardOrgProfileMedia from "./pages/DashboardOrgProfileMedia.js";
@@ -55,7 +56,8 @@ function App() {
       {/* <BuyersOnboarding /> */}
       {/* <Onboarding /> */}
       {/* <BuyersSearch /> */}
-      <BuyersNewEnquiry />
+      {/* <BuyersNewEnquiry /> */}
+      <Suppliers />
     </>
   );
 }
