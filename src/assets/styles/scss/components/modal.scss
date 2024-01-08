@@ -193,6 +193,7 @@
       border-radius: 12px;
       position: relative;
       cursor: pointer;
+      overflow: hidden;
       &::after{
         transition: 0.3s all ease;
         content: "Remove";
