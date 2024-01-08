@@ -239,7 +239,9 @@
 .text-36 {
   font-size: 36px;
 }
-
+.text-40 {
+  font-size: 40px;
+}
 .font-light {
   font-weight: 300;
 }
@@ -1257,6 +1259,9 @@
 }
 .mt-not-last-child:last-child {
   margin-top: 0;
+}
+.mr-not-last-child:last-child {
+  margin-right: 0;
 }
 .pb-not-last-child:last-child {
   padding-bottom: 0;

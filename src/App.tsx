@@ -18,9 +18,11 @@ import OnboardingConfirmDetails from "./pages/OnboardingConfirmDetails.js";
 import OnboardingContactInfo from "./pages/OnboardingContactInfo.js";
 import OnboardingUploadDocs from "./pages/OnboardingUploadDocs.js";
 import BuyersDashboard from "./pages/buyers/BuyersDashboard.js";
+import BuyersNewEnquiry from "./pages/buyers/BuyersNewEnquiry.js";
 import BuyersOnboarding from "./pages/buyers/BuyersOnboardingBusinessDetails.js";
 import BuyersOnboardingConfirmDetails from "./pages/buyers/BuyersOnboardingConfirmDetails.js";
 import BuyersOnboardingContactInfo from "./pages/buyers/BuyersOnboardingContactInfo.js";
+import BuyersSearch from "./pages/buyers/BuyersSearch.js";
 import BuyersSearchResults from "./pages/buyers/BuyersSearchResults.js";
 
 function App() {
@@ -48,7 +50,12 @@ function App() {
       {/* <BuyersOnboardingConfirmDetails /> */}
       {/* <BuyersDashboard /> */}
       {/* <BuyersSearchResults /> */}
-      <AdminDashboard />
+      {/* <AdminDashboard /> */}
+      {/* <BuyersDashboard /> */}
+      {/* <BuyersOnboarding /> */}
+      {/* <Onboarding /> */}
+      {/* <BuyersSearch /> */}
+      <BuyersNewEnquiry />
     </>
   );
 }

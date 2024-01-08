@@ -285,3 +285,53 @@ input[type="file"] {
     height: 10px;
   }
 }
+
+.stepper {
+  &-wrapper {
+    display: flex;
+    margin: 0 -16px;
+  }
+  &__list {
+    flex-basis: 25%;
+    flex: 1;
+    padding: 0 16px;
+    &__progress {
+      display: block;
+      height: 6px;
+      background-color: var(--border);
+      border-radius: 4px;
+    }
+    &__count {
+      display: inline-block;
+      color: var(--secondary-text);
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.008em;
+      margin-top: 16px;
+    }
+    &__title {
+      color: var(--tertiary-text);
+      font-weight: 600;
+      margin-top: 4px;
+    }
+    &.active {
+      .stepper__list {
+        &__progress {
+          background-color: var(--primary-brand);
+        }
+        &__count {
+          color: var(--primary-brand);
+        }
+      }
+    }
+
+    &.success_stepper {
+      .stepper__list {
+        &__progress {
+          background-color: green;
+        }
+      }
+    }
+  }
+}
