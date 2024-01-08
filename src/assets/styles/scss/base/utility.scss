@@ -61,7 +61,9 @@
 .relative {
   position: relative;
 }
-
+.sticky {
+  position: sticky;
+}
 .absolute {
   position: absolute;
 }
@@ -1105,6 +1107,9 @@
 .rounded-2xl {
   border-radius: 24px;
 }
+.rounded-3xl {
+  border-radius: 32px;
+}
 .rounded-full {
   border-radius: 100%;
 }
@@ -1131,6 +1136,9 @@
 }
 .text-secondary-brand {
   color: var(--secondary-brand);
+}
+.bg-placeholder {
+  background-color: var(--placeholder);
 }
 .bg-primary-brand {
   background-color: var(--primary-brand);

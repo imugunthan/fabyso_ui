@@ -37,7 +37,6 @@ function App() {
       {/* <OtpVerify /> */}
       {/* <Onboarding /> */}
       {/* <OnboardingContactInfo /> */}
-      {/* <OnboardingUploadDocs /> */}
       {/* <OnboardingConfirmDetails /> */}
       {/* <DashboardProfileSetup /> */}
       {/* <DashboardUsers /> */}
@@ -56,8 +55,10 @@ function App() {
       {/* <BuyersOnboarding /> */}
       {/* <Onboarding /> */}
       {/* <BuyersSearch /> */}
-      {/* <BuyersNewEnquiry /> */}
-      <Suppliers />
+      <BuyersNewEnquiry />
+      {/* <OnboardingUploadDocs /> */}
+
+      {/* <Suppliers /> */}
     </>
   );
 }
