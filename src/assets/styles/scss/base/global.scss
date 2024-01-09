@@ -75,6 +75,10 @@ input[type="number"] {
     color: #24782c;
     background-color: #d4ebd6;
   }
+  &--draft {
+    color: var(--tertiary-text);
+    background-color: #d8dde3;
+  }
 }
 .dropdown {
   &-menu {

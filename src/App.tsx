@@ -26,6 +26,7 @@ import BuyersOnboardingConfirmDetails from "./pages/buyers/BuyersOnboardingConfi
 import BuyersOnboardingContactInfo from "./pages/buyers/BuyersOnboardingContactInfo.js";
 import BuyersSearch from "./pages/buyers/BuyersSearch.js";
 import BuyersSearchResults from "./pages/buyers/BuyersSearchResults.js";
+import EnquiriesTable from "./pages/buyers/EnquiriesTable.js";
 
 function App() {
   return (
@@ -58,9 +59,9 @@ function App() {
       {/* <BuyersSearch /> */}
       {/* <BuyersNewEnquiry /> */}
       {/* <OnboardingUploadDocs /> */}
-      <BuyersNewEnquiryNominateSuppliers />
-
+      {/* <BuyersNewEnquiryNominateSuppliers /> */}
       {/* <Suppliers /> */}
+      <EnquiriesTable />
     </>
   );
 }

@@ -7,6 +7,9 @@
   background-color: #fff;
   border: 1px solid var(--border);
   border-radius: 4px;
+  &.font-medium {
+    font-weight: 500;
+  }
   &:focus {
     border: 1px solid var(--primary-brand);
     transition: all 300ms;
