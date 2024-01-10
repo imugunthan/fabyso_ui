@@ -52,6 +52,9 @@ input[type="number"] {
   &--border-grey {
     border: 1px solid #dbdbdb;
   }
+  &--border-grey2 {
+    border: 1px solid #e3e3e3;
+  }
 }
 .card-box2 {
   background-color: #ffffff;
@@ -403,6 +406,28 @@ input[type="file"] {
     background-color: #fff;
     border: 1px solid var(--border);
     border-radius: 100%;
+  }
+  &-text {
+    &__input {
+      display: none;
+      &:checked + label {
+        color: var(--primary-brand);
+      }
+    }
+    &__item {
+      color: var(--tertiary-text);
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: all 300ms;
+      cursor: pointer;
+      &:hover {
+        color: var(--primary-brand);
+      }
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+    }
   }
 }
 
