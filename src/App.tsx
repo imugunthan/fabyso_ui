@@ -29,48 +29,50 @@ import BuyersSearchResults from "./pages/buyers/BuyersSearchResults.js";
 import EnquiriesDetailsListView from "./pages/buyers/EnquiriesDetailsListView.js";
 import EnquiriesDetailsTable from "./pages/buyers/EnquiriesDetailsTable.js";
 import EnquiriesTable from "./pages/buyers/EnquiriesTable.js";
+import SupplierComparison from "./pages/buyers/SupplierComparison.js";
 import SupplierEnquiries from "./pages/suppliers/SupplierEnquiries.js";
 
 function App() {
-	return (
-		<>
-			{/* <Login /> */}
-			{/* <ForgotPassword /> */}
-			{/* <VerifyEmail /> */}
-			{/* <ResetPassword /> */}
-			{/* <Signup /> */}
-			{/* <OtpVerify /> */}
-			{/* <Onboarding /> */}
-			{/* <OnboardingContactInfo /> */}
-			{/* <OnboardingConfirmDetails /> */}
-			{/* <DashboardProfileSetup /> */}
-			{/* <DashboardUsers /> */}
-			{/* <DashboardOrgProfile /> */}
-			{/* <DashboardOrgProfileProducts /> */}
-			{/* <DashboardOrgProfileMedia /> */}
-			{/* <AddTestimonial /> */}
-			{/* <DashboardMyAccount /> */}
-			{/* <BuyersOnboarding /> */}
-			{/* <BuyersOnboardingContactInfo /> */}
-			{/* <BuyersOnboardingConfirmDetails /> */}
-			{/* <BuyersDashboard /> */}
-			{/* <BuyersSearchResults /> */}
-			{/* <AdminDashboard /> */}
-			{/* <BuyersDashboard /> */}
-			{/* <BuyersOnboarding /> */}
-			{/* <Onboarding /> */}
-			{/* <BuyersSearch /> */}
-			{/* <BuyersNewEnquiry /> */}
-			{/* <OnboardingUploadDocs /> */}
-			{/* <BuyersNewEnquiryNominateSuppliers /> */}
-			{/* <Suppliers /> */}
-			{/* <EnquiriesTable /> */}
-			{/* <EnquiriesDetailsTable /> */}
-			{/* <EnquiriesDetailsListView /> */}
+  return (
+    <>
+      {/* <Login /> */}
+      {/* <ForgotPassword /> */}
+      {/* <VerifyEmail /> */}
+      {/* <ResetPassword /> */}
+      {/* <Signup /> */}
+      {/* <OtpVerify /> */}
+      {/* <Onboarding /> */}
+      {/* <OnboardingContactInfo /> */}
+      {/* <OnboardingConfirmDetails /> */}
+      {/* <DashboardProfileSetup /> */}
+      {/* <DashboardUsers /> */}
+      {/* <DashboardOrgProfile /> */}
+      {/* <DashboardOrgProfileProducts /> */}
+      {/* <DashboardOrgProfileMedia /> */}
+      {/* <AddTestimonial /> */}
+      {/* <DashboardMyAccount /> */}
+      {/* <BuyersOnboarding /> */}
+      {/* <BuyersOnboardingContactInfo /> */}
+      {/* <BuyersOnboardingConfirmDetails /> */}
+      {/* <BuyersDashboard /> */}
+      {/* <BuyersSearchResults /> */}
+      {/* <AdminDashboard /> */}
+      {/* <BuyersDashboard /> */}
+      {/* <BuyersOnboarding /> */}
+      {/* <Onboarding /> */}
+      {/* <BuyersSearch /> */}
+      {/* <BuyersNewEnquiry /> */}
+      {/* <OnboardingUploadDocs /> */}
+      {/* <BuyersNewEnquiryNominateSuppliers /> */}
+      {/* <Suppliers /> */}
+      {/* <EnquiriesTable /> */}
+      {/* <EnquiriesDetailsTable /> */}
+      {/* <EnquiriesDetailsListView /> */}
 
-			<SupplierEnquiries />
-		</>
-	);
+      {/* <SupplierEnquiries /> */}
+      <SupplierComparison />
+    </>
+  );
 }
 
 export default App;
