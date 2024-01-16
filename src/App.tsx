@@ -74,9 +74,9 @@ function App() {
 
       {/* <SupplierEnquiries /> */}
       {/* <SupplierComparison /> */}
-      {/* <BuyersEnquiryConfirmOrder /> */}
+      <BuyersEnquiryConfirmOrder />
       {/* <BuyersEnquiryNominateSuppliers /> */}
-      <BuyersEnquiryPaymentTerms />
+      {/* <BuyersEnquiryPaymentTerms /> */}
     </>
   );
 }

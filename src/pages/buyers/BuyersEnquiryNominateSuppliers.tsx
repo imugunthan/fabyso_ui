@@ -25,8 +25,8 @@ const BuyersEnquiryNominateSuppliers = () => {
         <header className="dashboard__header">
           <h2 className="text-xl font-medium">Search</h2>
         </header>
-        <section className="relative dashboard__body dashboard__search">
-          <div className="pt-4 px-5 pb-10">
+        <section className="relative dashboard__body">
+          <div className="pt-4 px-5" style={{ paddingBottom: 100 }}>
             <span className="link text-sm semibold">Go back</span>
             <h2
               className="text-xl font-semibold mt-2"
@@ -492,6 +492,17 @@ const BuyersEnquiryNominateSuppliers = () => {
             </div>
           </div>
         </section>
+        <footer
+          className="fixed bottom-0 bg-white z10"
+          style={{ width: "calc(100% - 240px)", position: "fixed", left: 240 }}
+        >
+          <div className="flex items-center justify-end px-8 py-3">
+            <button className="btn btn--h40 px-10">Cancel</button>
+            <button className="btn btn--primary btn--h40 px-10 ml-4">
+              Next
+            </button>
+          </div>
+        </footer>
       </main>
     </section>
   );
