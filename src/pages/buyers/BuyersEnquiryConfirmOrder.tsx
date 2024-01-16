@@ -1,7 +1,6 @@
 import "../../assets/styles/scss/pages/dashboard.scss";
 import "../../assets/styles/scss/pages/org-profile.scss";
 import DashboardAsideMenu from "../../components/common/DashboardAsideMenu";
-import pic from "../../assets/img/logo-sample1.png";
 import logo from "../../assets/img/logo-sample1.png";
 
 const BuyersEnquiryConfirmOrder = () => {
