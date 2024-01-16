@@ -19,6 +19,9 @@ import OnboardingConfirmDetails from "./pages/OnboardingConfirmDetails.js";
 import OnboardingContactInfo from "./pages/OnboardingContactInfo.js";
 import OnboardingUploadDocs from "./pages/OnboardingUploadDocs.js";
 import BuyersDashboard from "./pages/buyers/BuyersDashboard.js";
+import BuyersEnquiryConfirmOrder from "./pages/buyers/BuyersEnquiryConfirmOrder.js";
+import BuyersEnquiryNominateSuppliers from "./pages/buyers/BuyersEnquiryNominateSuppliers.js";
+import BuyersEnquiryPaymentTerms from "./pages/buyers/BuyersEnquiryPaymentTerms.js";
 import BuyersNewEnquiry from "./pages/buyers/BuyersNewEnquiry.js";
 import BuyersNewEnquiryNominateSuppliers from "./pages/buyers/BuyersNewEnquiryNominateSuppliers.js";
 import BuyersOnboarding from "./pages/buyers/BuyersOnboardingBusinessDetails.js";
@@ -70,7 +73,10 @@ function App() {
       {/* <EnquiriesDetailsListView /> */}
 
       {/* <SupplierEnquiries /> */}
-      <SupplierComparison />
+      {/* <SupplierComparison /> */}
+      {/* <BuyersEnquiryConfirmOrder /> */}
+      {/* <BuyersEnquiryNominateSuppliers /> */}
+      <BuyersEnquiryPaymentTerms />
     </>
   );
 }
