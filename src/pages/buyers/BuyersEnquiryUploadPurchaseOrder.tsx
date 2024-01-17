@@ -5,19 +5,15 @@ import pdfIcon from "../../assets/icons/pdf.svg";
 import ProgressBar from "../../components/common/ProgressBarNew";
 import closeIcon from "../../assets/icons/close-with-circle.svg";
 
-const BuyersEnquiryPaymentTerms = () => {
+const BuyersEnquiryUploadPurchaseOrder = () => {
   const stepsData = [
     {
       stepNumber: "Step 1",
-      title: "Basic Information",
+      title: "Order Tracking",
     },
     {
       stepNumber: "Step 2",
-      title: "Nominate Suppliers",
-    },
-    {
-      stepNumber: "Step 3",
-      title: "Payment Terms",
+      title: "Upload Purchase Order",
     },
   ];
   return (
@@ -34,9 +30,9 @@ const BuyersEnquiryPaymentTerms = () => {
               className="text-xl font-semibold mt-2"
               style={{ color: "#1F2B3D" }}
             >
-              Cofirm order
+              Create order
             </h2>
-            <ul className="stepper-wrapper col-10 mt-5">
+            <ul className="stepper-wrapper col-8 mt-5">
               {stepsData.map((step, index) => (
                 <li
                   key={index}
@@ -52,14 +48,10 @@ const BuyersEnquiryPaymentTerms = () => {
                 </li>
               ))}
             </ul>
-            <div className="p-8 bg-white col-9 rounded-12 mt-9">
-              <h2 className="text-xl font-semibold">Update Payment Terms</h2>
-              <p className="text-sm font-medium mt-5">
-                Revised payment terms effective immediately for smoother
-                transactions.
-              </p>
+            <div className="px-8 pt-8 pb-13 bg-white col-8 rounded-12 mt-9">
+              <h2 className="text-xl font-semibold">Upload Purchase Order</h2>
               <label className="block text-sm font-medium mt-5">
-                Upload files
+                Upload Waybill
               </label>
               <div
                 className="file-upload-container mt-2"
@@ -85,7 +77,7 @@ const BuyersEnquiryPaymentTerms = () => {
                   <div className="flex items-center file-details__icon-wrapper">
                     <img src={pdfIcon} alt="file-type" />
                   </div>
-                  <p className="file-details__title truncate">Payment Terms</p>
+                  <p className="file-details__title truncate">Purchase Order</p>
                 </div>
                 <div className="flex items-center flex-shrink-0">
                   <span className="text-secondary text-13 font-medium">
@@ -118,4 +110,4 @@ const BuyersEnquiryPaymentTerms = () => {
   );
 };
 
-export default BuyersEnquiryPaymentTerms;
+export default BuyersEnquiryUploadPurchaseOrder;

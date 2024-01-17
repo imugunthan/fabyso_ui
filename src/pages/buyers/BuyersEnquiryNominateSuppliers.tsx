@@ -23,7 +23,7 @@ const BuyersEnquiryNominateSuppliers = () => {
       <DashboardAsideMenu />
       <main className="dashboard__main">
         <header className="dashboard__header">
-          <h2 className="text-xl font-medium">Search</h2>
+          <h2 className="text-xl font-medium">Enquiry Detail</h2>
         </header>
         <section className="relative dashboard__body">
           <div className="pt-4 px-5" style={{ paddingBottom: 100 }}>

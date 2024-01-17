@@ -292,6 +292,9 @@ input[type="file"] {
     font-size: 13px;
     font-weight: 500;
     margin-left: 5px;
+    &.ml-2 {
+      margin-left: 8px;
+    }
   }
 }
 .no-wrap {

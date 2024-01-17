@@ -20,8 +20,10 @@ import OnboardingContactInfo from "./pages/OnboardingContactInfo.js";
 import OnboardingUploadDocs from "./pages/OnboardingUploadDocs.js";
 import BuyersDashboard from "./pages/buyers/BuyersDashboard.js";
 import BuyersEnquiryConfirmOrder from "./pages/buyers/BuyersEnquiryConfirmOrder.js";
+import BuyersEnquiryCreateOrder from "./pages/buyers/BuyersEnquiryCreateOrder.js";
 import BuyersEnquiryNominateSuppliers from "./pages/buyers/BuyersEnquiryNominateSuppliers.js";
 import BuyersEnquiryPaymentTerms from "./pages/buyers/BuyersEnquiryPaymentTerms.js";
+import BuyersEnquiryUploadPurchaseOrder from "./pages/buyers/BuyersEnquiryUploadPurchaseOrder.js";
 import BuyersNewEnquiry from "./pages/buyers/BuyersNewEnquiry.js";
 import BuyersNewEnquiryNominateSuppliers from "./pages/buyers/BuyersNewEnquiryNominateSuppliers.js";
 import BuyersOnboarding from "./pages/buyers/BuyersOnboardingBusinessDetails.js";
@@ -74,9 +76,11 @@ function App() {
 
       {/* <SupplierEnquiries /> */}
       {/* <SupplierComparison /> */}
-      <BuyersEnquiryConfirmOrder />
+      {/* <BuyersEnquiryConfirmOrder /> */}
       {/* <BuyersEnquiryNominateSuppliers /> */}
       {/* <BuyersEnquiryPaymentTerms /> */}
+      {/* <BuyersEnquiryCreateOrder /> */}
+      <BuyersEnquiryUploadPurchaseOrder />
     </>
   );
 }
