@@ -6,6 +6,7 @@ import ResetPassword from "./components/ResetPassword.js";
 import Signup from "./components/Signup.js";
 import VerifyEmail from "./components/VerifyEmail.js";
 import DashboardAsideMenu from "./components/common/DashboardAsideMenu.js";
+import ModalOrderDetails from "./components/modals/ModalOrderDetails.js";
 import AdminDashboard from "./pages/Admin/AdminDashboard.js";
 import Suppliers from "./pages/Admin/Suppliers.js";
 import DashboardMyAccount from "./pages/DashboardMyAccount.js";
@@ -80,7 +81,8 @@ function App() {
       {/* <BuyersEnquiryNominateSuppliers /> */}
       {/* <BuyersEnquiryPaymentTerms /> */}
       {/* <BuyersEnquiryCreateOrder /> */}
-      <BuyersEnquiryUploadPurchaseOrder />
+      {/* <BuyersEnquiryUploadPurchaseOrder /> */}
+      <ModalOrderDetails />
     </>
   );
 }
