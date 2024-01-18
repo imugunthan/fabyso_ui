@@ -37,6 +37,7 @@ import EnquiriesDetailsTable from "./pages/buyers/EnquiriesDetailsTable.js";
 import EnquiriesTable from "./pages/buyers/EnquiriesTable.js";
 import SupplierComparison from "./pages/buyers/SupplierComparison.js";
 import SupplierEnquiries from "./pages/suppliers/SupplierEnquiries.js";
+import AllOrdersDashboard from "./pages/suppliers/orders/AllOrdersDashboard.js";
 
 function App() {
   return (
@@ -82,7 +83,8 @@ function App() {
       {/* <BuyersEnquiryPaymentTerms /> */}
       {/* <BuyersEnquiryCreateOrder /> */}
       {/* <BuyersEnquiryUploadPurchaseOrder /> */}
-      <ModalOrderDetails />
+      {/* <ModalOrderDetails /> */}
+      <AllOrdersDashboard />
     </>
   );
 }

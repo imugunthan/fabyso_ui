@@ -94,6 +94,19 @@ input[type="number"] {
     color: #b5783f;
     background-color: #ffe2c7;
   }
+  &--order-placed {
+    color: var(--secondary-brand);
+    background-color: #e2fee1;
+  }
+  &--completed {
+    color: var(--tertiary-text);
+    background-color: #dce0e5;
+  }
+  &--parcel-packed,
+  &--sample-request {
+    color: #5f61e1;
+    background-color: rgba(95, 97, 225, 0.16);
+  }
 }
 .dropdown {
   &-menu {
