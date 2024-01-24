@@ -38,6 +38,7 @@ import EnquiriesTable from "./pages/buyers/EnquiriesTable.js";
 import SupplierComparison from "./pages/buyers/SupplierComparison.js";
 import SupplierEnquiries from "./pages/suppliers/SupplierEnquiries.js";
 import AllOrdersDashboard from "./pages/suppliers/orders/AllOrdersDashboard.js";
+import OrdersEmptyState from "./pages/suppliers/orders/OrdersEmptyState.js";
 
 function App() {
   return (
@@ -84,7 +85,8 @@ function App() {
       {/* <BuyersEnquiryCreateOrder /> */}
       {/* <BuyersEnquiryUploadPurchaseOrder /> */}
       {/* <ModalOrderDetails /> */}
-      <AllOrdersDashboard />
+      {/* <AllOrdersDashboard /> */}
+      <OrdersEmptyState />
     </>
   );
 }
