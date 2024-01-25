@@ -171,7 +171,7 @@ const ModalProductDetailedView: React.FC = () => {
                   <label className="text-sm font-semibold">
                     Files Attached
                   </label>
-                  <div className="flex flex-wrap mx-1 mt-5">
+                  <div className="flex flex-wrap -mx-1 mt-5">
                     <div className="col-6 px-1 mb-2">
                       <div
                         className="flex items-center py-1 px-3 rounded-sm"
@@ -330,7 +330,7 @@ const ModalProductDetailedView: React.FC = () => {
                   <label className="text-sm font-semibold">
                     Files Attached
                   </label>
-                  <div className="flex flex-wrap mx-1 mt-5">
+                  <div className="flex flex-wrap -mx-1 mt-5">
                     <div className="col-6 px-1 mb-2">
                       <div
                         className="flex items-center py-1 px-3 rounded-sm"
