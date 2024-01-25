@@ -164,6 +164,12 @@
       border: 1px dashed var(--primary-brand);
       border-radius: 12px;
       cursor: pointer;
+      &--type2 {
+        width: 100%;
+        height: initial;
+        flex-direction: row;
+        border-radius: 4px;
+      }
     }
   }
   .file-upload-add-more {

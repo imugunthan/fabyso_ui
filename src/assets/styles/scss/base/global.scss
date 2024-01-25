@@ -520,3 +520,26 @@ input[type="file"] {
     transform: translateY(0);
   }
 }
+
+//Star rating
+.rating-group {
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+
+.rating__input {
+  display: none;
+}
+
+.rating__label {
+  cursor: pointer;
+  &:not(:first-child) {
+    margin-right: 12px;
+  }
+}
+
+.rating__label:hover .rating__label svg path,
+.rating__label:hover ~ .rating__label svg path,
+.rating__input[type="radio"]:checked ~ .rating__label svg path {
+  fill: var(--tertiary-brand);
+}

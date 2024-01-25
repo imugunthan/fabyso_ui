@@ -36,4 +36,9 @@
   &:not(:last-child) {
     margin-bottom: 24px;
   }
+  &--type2 {
+    background-color: #fcfcfe;
+    border: 1px solid #b7bdc6;
+    border-radius: 4px;
+  }
 }

@@ -20,6 +20,11 @@
     font-size: 14px;
     font-weight: 400;
   }
+  &--type2 {
+    &::placeholder {
+      color: var(--border);
+    }
+  }
   &--h32 {
     height: 32px;
   }
