@@ -7,6 +7,7 @@ import tick from "../../assets/icons/tick.svg";
 import shopBag from "../../assets/icons/shop-bag.svg";
 import product from "../../assets/icons/product1.svg";
 import box from "../../assets/icons/box3.svg";
+import download from "../../assets/icons/download1.svg";
 
 const ModalProductDetailedView: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>("quote-details");
@@ -171,7 +172,7 @@ const ModalProductDetailedView: React.FC = () => {
                     Files Attached
                   </label>
                   <div className="flex flex-wrap mx-1 mt-5">
-                    <div className="col-6 px-1 mb-1">
+                    <div className="col-6 px-1 mb-2">
                       <div
                         className="flex items-center py-1 px-3 rounded-sm"
                         style={{ backgroundColor: "rgba(209, 227, 255, 0.38)" }}
@@ -190,23 +191,26 @@ const ModalProductDetailedView: React.FC = () => {
                             style={{ maxHeight: 14 }}
                           />
                         </figure>
-                        <div className="flex flex-col ml-3">
+                        <div className="flex flex-col flex-1 ml-3 pr-2 truncate">
                           <h4
-                            className="text-sm font-medium"
+                            className="text-sm font-medium truncate"
                             style={{ color: "#383941" }}
                           >
                             Attached Files
                           </h4>
                           <p
-                            className="text-xs mt-1"
+                            className="text-xs mt-1 truncate"
                             style={{ color: "#6E7477" }}
                           >
                             PDF.(250 kb)
                           </p>
                         </div>
+                        <div className="flex items-center justify-center flex-shrink-0 ml-auto cursor-pointer">
+                          <img src={download} alt="download-icon" />
+                        </div>
                       </div>
                     </div>
-                    <div className="col-6 px-1 mb-1">
+                    <div className="col-6 px-1 mb-2">
                       <div
                         className="flex items-center py-1 px-3 rounded-sm"
                         style={{ backgroundColor: "rgba(209, 227, 255, 0.38)" }}
@@ -225,23 +229,26 @@ const ModalProductDetailedView: React.FC = () => {
                             style={{ maxHeight: 14 }}
                           />
                         </figure>
-                        <div className="flex flex-col ml-3">
+                        <div className="flex flex-col flex-1 ml-3 pr-2 truncate">
                           <h4
-                            className="text-sm font-medium"
+                            className="text-sm font-medium truncate"
                             style={{ color: "#383941" }}
                           >
                             Attached Files
                           </h4>
                           <p
-                            className="text-xs mt-1"
+                            className="text-xs mt-1 truncate"
                             style={{ color: "#6E7477" }}
                           >
                             PDF.(250 kb)
                           </p>
                         </div>
+                        <div className="flex items-center justify-center flex-shrink-0 ml-auto cursor-pointer">
+                          <img src={download} alt="download-icon" />
+                        </div>
                       </div>
                     </div>
-                    <div className="col-6 px-1 mb-1">
+                    <div className="col-6 px-1 mb-2">
                       <div
                         className="flex items-center py-1 px-3 rounded-sm"
                         style={{ backgroundColor: "rgba(209, 227, 255, 0.38)" }}
@@ -260,19 +267,22 @@ const ModalProductDetailedView: React.FC = () => {
                             style={{ maxHeight: 14 }}
                           />
                         </figure>
-                        <div className="flex flex-col ml-3">
+                        <div className="flex flex-col flex-1 ml-3 pr-2 truncate">
                           <h4
-                            className="text-sm font-medium"
+                            className="text-sm font-medium truncate"
                             style={{ color: "#383941" }}
                           >
                             Attached Files
                           </h4>
                           <p
-                            className="text-xs mt-1"
+                            className="text-xs mt-1 truncate"
                             style={{ color: "#6E7477" }}
                           >
                             PDF.(250 kb)
                           </p>
+                        </div>
+                        <div className="flex items-center justify-center flex-shrink-0 ml-auto cursor-pointer">
+                          <img src={download} alt="download-icon" />
                         </div>
                       </div>
                     </div>

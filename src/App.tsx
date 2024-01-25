@@ -6,6 +6,7 @@ import ResetPassword from "./components/ResetPassword.js";
 import Signup from "./components/Signup.js";
 import VerifyEmail from "./components/VerifyEmail.js";
 import DashboardAsideMenu from "./components/common/DashboardAsideMenu.js";
+import ModalDropQuote from "./components/modals/ModalDropQuote.js";
 import ModalOrderDetails from "./components/modals/ModalOrderDetails.js";
 import ModalOrderUpdateStatus from "./components/modals/ModalOrderUpdateStatus.js";
 import AdminDashboard from "./pages/Admin/AdminDashboard.js";
@@ -78,7 +79,7 @@ function App() {
       {/* <EnquiriesDetailsTable /> */}
       {/* <EnquiriesDetailsListView /> */}
 
-      {/* <SupplierEnquiries /> */}
+      <SupplierEnquiries />
       {/* <SupplierComparison /> */}
       {/* <BuyersEnquiryConfirmOrder /> */}
       {/* <BuyersEnquiryNominateSuppliers /> */}
@@ -88,7 +89,8 @@ function App() {
       {/* <ModalOrderDetails /> */}
       {/* <AllOrdersDashboard /> */}
       {/* <OrdersEmptyState /> */}
-      <ModalOrderUpdateStatus />
+      {/* <ModalOrderUpdateStatus /> */}
+      {/* <ModalDropQuote /> */}
     </>
   );
 }
