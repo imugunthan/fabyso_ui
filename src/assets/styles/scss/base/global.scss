@@ -543,3 +543,31 @@ input[type="file"] {
 .rating__input[type="radio"]:checked ~ .rating__label svg path {
   fill: var(--tertiary-brand);
 }
+
+.breadcrumb {
+  &-wrapper {
+    display: flex;
+  }
+  &__list {
+    position: relative;
+    color: var(--text-grey);
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 300ms;
+    &:not(:last-child) {
+      cursor: pointer;
+      &:hover {
+        color: #697380;
+      }
+      &::after {
+        content: "/";
+        background-image: url(../../../icons/slash.svg);
+        display: inline-block;
+        margin: 0 6px;
+      }
+    }
+    &:last-child {
+      color: var(--primary-brand);
+    }
+  }
+}

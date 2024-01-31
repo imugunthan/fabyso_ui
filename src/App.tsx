@@ -40,6 +40,7 @@ import EnquiriesTable from "./pages/buyers/EnquiriesTable.js";
 import SupplierComparison from "./pages/buyers/SupplierComparison.js";
 import SupplierEnquiries from "./pages/suppliers/SupplierEnquiries.js";
 import AllOrdersDashboard from "./pages/suppliers/orders/AllOrdersDashboard.js";
+import OrderDetailsDashboard from "./pages/suppliers/orders/OrderDetailsDashboard.js";
 import OrdersEmptyState from "./pages/suppliers/orders/OrdersEmptyState.js";
 
 function App() {
@@ -79,7 +80,7 @@ function App() {
       {/* <EnquiriesDetailsTable /> */}
       {/* <EnquiriesDetailsListView /> */}
 
-      <SupplierEnquiries />
+      {/* <SupplierEnquiries /> */}
       {/* <SupplierComparison /> */}
       {/* <BuyersEnquiryConfirmOrder /> */}
       {/* <BuyersEnquiryNominateSuppliers /> */}
@@ -91,6 +92,7 @@ function App() {
       {/* <OrdersEmptyState /> */}
       {/* <ModalOrderUpdateStatus /> */}
       {/* <ModalDropQuote /> */}
+      <OrderDetailsDashboard />
     </>
   );
 }
