@@ -21,6 +21,7 @@ import Onboarding from "./pages/Onboarding.js";
 import OnboardingConfirmDetails from "./pages/OnboardingConfirmDetails.js";
 import OnboardingContactInfo from "./pages/OnboardingContactInfo.js";
 import OnboardingUploadDocs from "./pages/OnboardingUploadDocs.js";
+import PlansBilling from "./pages/PlansBilling.js";
 import BuyersDashboard from "./pages/buyers/BuyersDashboard.js";
 import BuyersEnquiryConfirmOrder from "./pages/buyers/BuyersEnquiryConfirmOrder.js";
 import BuyersEnquiryCreateOrder from "./pages/buyers/BuyersEnquiryCreateOrder.js";
@@ -92,7 +93,8 @@ function App() {
       {/* <OrdersEmptyState /> */}
       {/* <ModalOrderUpdateStatus /> */}
       {/* <ModalDropQuote /> */}
-      <OrderDetailsDashboard />
+      {/* <OrderDetailsDashboard /> */}
+      <PlansBilling />
     </>
   );
 }
